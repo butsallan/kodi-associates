@@ -14,7 +14,7 @@ export default function App() {
         <Hero />
         <About />
         <Services />
-        
+
         {/* Team Section Placeholder based on template style */}
         <section id="our-team" className="section-padding bg-white">
           <div className="container-custom">
@@ -40,9 +40,9 @@ export default function App() {
 
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { name: "Sarah Mitchell", role: "Senior Tax Consultant", img: "https://picsum.photos/seed/sarah/600/800" },
-                { name: "Daniel Wright", role: "Head of Strategy", img: "https://picsum.photos/seed/daniel/600/800" },
-                { name: "Emily Thompson", role: "Chief Financial Officer", img: "https://picsum.photos/seed/emily/600/800" }
+                { name: "Dickens Rurahukayo", role: "Founder & CEO", img: "/src/assets/team-1.png" },
+                { name: "Jalia Namuganza", role: "Senior Tax Consultant", img: "/src/assets/team-2.png" },
+                { name: "Moses Kidega", role: "Audit Manager", img: "/src/assets/team-3.png" }
               ].map((member, i) => (
                 <motion.div
                   key={i}
