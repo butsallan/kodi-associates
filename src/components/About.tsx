@@ -82,7 +82,7 @@ export default function About() {
             className="relative"
           >
             <img
-              src="https://images.unsplash.com/photo-1454165833767-027ff9d026bd?q=80&w=2070&auto=format&fit=crop"
+              src="/assets/expertise.png"
               alt="Business Meeting"
               className="w-full h-auto rounded-2xl shadow-xl"
               referrerPolicy="no-referrer"

@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen min-h-[700px] flex items-center overflow-hidden">
+    <section className="relative min-h-[800px] flex flex-col pt-32 md:pt-48 pb-20 overflow-hidden">
       {/* Cinematic Background */}
       <div className="absolute inset-0 z-0">
         <img
@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/80 via-brand-dark/40 to-transparent" />
       </div>
 
-      <div className="container-custom relative z-10 px-6 pt-32 md:pt-40">
+      <div className="container-custom relative z-10 px-6">
         <div className="max-w-4xl">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
