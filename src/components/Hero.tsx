@@ -45,8 +45,8 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white leading-[1.1] mb-8 tracking-tight"
           >
-            Smart solution for a <br />
-            <span className="text-brand-primary">stronger future</span>
+            Expert guidance for the <br />
+            <span className="text-brand-primary">finance you deserve</span>
           </motion.h1>
 
           <motion.p
@@ -55,7 +55,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-white/80 mb-12 max-w-xl font-body leading-relaxed"
           >
-            We provide expert accounting and financial consulting to help your business grow with confidence and premium authority.
+            KODI Associates is your dependable partner for financial advancement. We provide expert accounting, tax consultancy, and advisory services to help your business thrive.
           </motion.p>
 
           <motion.div

@@ -16,29 +16,27 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "py-4 bg-white/80 backdrop-blur-md shadow-sm" : "py-6 bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "py-4 bg-white/80 backdrop-blur-md shadow-sm" : "py-6 bg-transparent"
+        }`}
     >
       <div className="container-custom flex items-center justify-between px-6">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-brand-primary rounded-lg flex items-center justify-center">
-            <span className="text-white font-display font-bold text-xl">F</span>
+            <span className="text-white font-display font-bold text-xl">K</span>
           </div>
           <span className={`text-2xl font-display font-bold tracking-tighter ${isScrolled ? "text-brand-dark" : "text-white"}`}>
-            Finovo
+            KODI Associates
           </span>
         </div>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
-          {["About Us", "Pricing", "Portfolio", "Services"].map((item) => (
+          {["About Us", "Services", "Our Team", "Pricing"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase().replace(" ", "-")}`}
-              className={`text-sm font-medium transition-colors ${
-                isScrolled ? "text-brand-dark hover:text-brand-primary" : "text-white/80 hover:text-white"
-              }`}
+              className={`text-sm font-medium transition-colors ${isScrolled ? "text-brand-dark hover:text-brand-primary" : "text-white/80 hover:text-white"
+                }`}
             >
               {item}
             </a>
@@ -65,7 +63,7 @@ export default function Navbar() {
           animate={{ opacity: 1, y: 0 }}
           className="absolute top-full left-0 right-0 bg-white shadow-xl p-6 flex flex-col gap-4 md:hidden"
         >
-          {["About Us", "Pricing", "Portfolio", "Services"].map((item) => (
+          {["About Us", "Services", "Our Team", "Pricing"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase().replace(" ", "-")}`}

@@ -3,24 +3,24 @@ import { PieChart, BarChart3, Landmark, Calculator, ArrowRight, ShieldCheck, Arr
 
 const services = [
   {
-    title: "Financial Planning and Strategy",
-    icon: <PieChart className="w-8 h-8" />,
-    desc: "Comprehensive roadmaps for long-term wealth and business stability."
-  },
-  {
-    title: "Tax Optimization and Compliance",
+    title: "Accounting & Advisory",
     icon: <Calculator className="w-8 h-8" />,
-    desc: "Strategic tax planning to minimize liabilities and ensure full compliance."
+    desc: "Equipping your team to fulfill financial and management reporting responsibilities."
   },
   {
-    title: "Risk Management and Investment",
+    title: "Strategic Tax Planning",
+    icon: <PieChart className="w-8 h-8" />,
+    desc: "Optimizing tax efficiency through careful review of structures and transactions."
+  },
+  {
+    title: "Business Consulting",
     icon: <ShieldCheck className="w-8 h-8" />,
-    desc: "Protecting your assets while identifying high-growth opportunities."
+    desc: "Process optimization, financial strategy, market research, and risk management."
   },
   {
-    title: "Strategic Mergers Advisory",
+    title: "Online Professional Courses",
     icon: <Landmark className="w-8 h-8" />,
-    desc: "Expert guidance through acquisitions and business transitions."
+    desc: "Specialized training programs designed for professional financial advancement."
   }
 ];
 
@@ -29,7 +29,7 @@ export default function Services() {
     <section id="services" className="section-padding bg-white relative overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-brand-bg -z-0 rounded-l-[100px] hidden lg:block" />
-      
+
       <div className="container-custom relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <motion.div
@@ -50,7 +50,7 @@ export default function Services() {
                 We offer a comprehensive range of financial services designed to help your business grow, stay compliant, and thrive in any market.
               </p>
             </div>
-            
+
             <div className="relative group overflow-hidden rounded-3xl">
               <img
                 src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2022&auto=format&fit=crop"
