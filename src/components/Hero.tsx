@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Cinematic Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/hero-bg.png"
+          src="/assets/hero-bg.png"
           alt="Kampala Skyline at Sunset"
           className="w-full h-full object-cover brightness-[0.6]"
           referrerPolicy="no-referrer"
@@ -24,7 +24,7 @@ export default function Hero() {
             className="flex items-center gap-4 mb-8"
           >
             <div className="flex -space-x-3">
-              {["/src/assets/team-1.png", "/src/assets/team-2.png", "/src/assets/team-3.png"].map((img, i) => (
+              {["/assets/team-1.png", "/assets/team-2.png", "/assets/team-3.png"].map((img, i) => (
                 <img
                   key={i}
                   src={img}

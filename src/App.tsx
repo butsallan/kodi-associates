@@ -40,9 +40,9 @@ export default function App() {
 
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { name: "Dickens Rurahukayo", role: "Founder & CEO", img: "/src/assets/team-1.png" },
-                { name: "Jalia Namuganza", role: "Senior Tax Consultant", img: "/src/assets/team-2.png" },
-                { name: "Moses Kidega", role: "Audit Manager", img: "/src/assets/team-3.png" }
+                { name: "Dickens Rurahukayo", role: "Founder & CEO", img: "/assets/team-1.png" },
+                { name: "Jalia Namuganza", role: "Senior Tax Consultant", img: "/assets/team-2.png" },
+                { name: "Moses Kidega", role: "Audit Manager", img: "/assets/team-3.png" }
               ].map((member, i) => (
                 <motion.div
                   key={i}
