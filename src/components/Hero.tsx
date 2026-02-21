@@ -15,27 +15,27 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/80 via-brand-dark/40 to-transparent" />
       </div>
 
-      <div className="container-custom relative z-10 px-6">
-        <div className="max-w-3xl">
+      <div className="container-custom relative z-10 px-6 pt-32 md:pt-40">
+        <div className="max-w-4xl">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex items-center gap-4 mb-8"
+            className="flex items-center gap-4 mb-10"
           >
             <div className="flex -space-x-3">
               {["/assets/team-1.png", "/assets/team-2.png", "/assets/team-3.png"].map((img, i) => (
                 <img
                   key={i}
                   src={img}
-                  className="w-10 h-10 rounded-full border-2 border-white object-cover"
+                  className="w-12 h-12 rounded-full border-2 border-brand-primary object-cover shadow-lg"
                   alt="Client"
                   referrerPolicy="no-referrer"
                 />
               ))}
             </div>
-            <div className="text-white/90 text-sm font-medium">
-              <span className="text-white font-bold">100+</span> Satisfied clients
+            <div className="text-white/90 text-sm md:text-base font-medium">
+              <span className="text-white font-bold">100+</span> Satisfied clients in Kampala
             </div>
           </motion.div>
 
